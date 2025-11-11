@@ -26,10 +26,6 @@ IDE Java (IntelliJ IDEA, Eclipse, NetBeans, etc.) ou terminal com javac
 
 Opção 1: Usando IDE (IntelliJ IDEA)
 
-Clone o repositório:
-
-bashgit clone https://github.com/seu-usuario/eco-quiz-metropole.git
-
 Abra o projeto no IntelliJ IDEA:
 
 File → Open → Selecione a pasta do projeto
@@ -40,31 +36,6 @@ Execute a classe principal:
 Abra JogoQuiz.java
 Clique no ícone ▶️ verde ou pressione Shift+F10
 
-
-
-Opção 2: Usando Terminal
-
-Clone o repositório:
-
-bashgit clone https://github.com/seu-usuario/eco-quiz-metropole.git
-cd eco-quiz-metropole
-
-Compile todos os arquivos:
-
-bashjavac *.java
-
-Execute o programa:
-
-bashjava JogoQuiz
-📁 Estrutura do Projeto
-eco-quiz-metropole/
-│
-├── Questao.java              # Classe que representa uma questão
-├── BancoQuestoes.java        # Gerenciamento do banco de questões (Singleton)
-├── ControladorJogo.java      # Lógica de negócio do jogo
-├── InterfaceGrafica.java     # Interface gráfica com Swing
-├── JogoQuiz.java            # Classe principal (main)
-└── README.md                # Este arquivo
 🎓 Conceitos Aplicados
 Programação Orientada a Objetos
 
