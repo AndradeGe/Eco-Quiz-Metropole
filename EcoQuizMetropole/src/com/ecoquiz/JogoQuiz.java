@@ -6,7 +6,7 @@ public class JogoQuiz {
             @Override
             public void run() {
                 ControladorJogo controlador = new ControladorJogo("Jogador");
-                InterfaceGrafica interfaceGrafica = new InterfaceGrafica(controlador);
+                InterfaceGrafica interface_grafica = new InterfaceGrafica(controlador);
             }
         });
     }
